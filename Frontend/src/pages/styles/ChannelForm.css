@@ -1,0 +1,44 @@
+/* src/styles/ChannelForm.css */
+
+.edit-channel-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.error {
+  color: red;
+}
+.edit-channel-form {
+  display: grid;
+  gap: 15px;
+}
+.edit-channel-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.edit-channel-form input[type="text"],
+.edit-channel-form textarea {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.preview-img {
+  max-width: 150px;
+  margin-top: 8px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.edit-channel-form button {
+  padding: 10px 20px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-channel-form button:hover {
+  background-color: #a30000;
+}

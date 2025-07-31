@@ -1,0 +1,90 @@
+/* CreateChannel.css */
+
+.create-channel-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+
+.create-channel-form {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  width: 450px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.create-channel-form h1 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.create-channel-form h2 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.image-inputs {
+  margin-bottom: 20px;
+}
+
+.image-inputs label {
+  display: block;
+  margin: 10px auto;
+  font-size: 14px;
+  color: #444;
+}
+
+.image-inputs input[type="file"] {
+  margin-top: 6px;
+}
+
+.create-channel-form input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.create-channel-form input[type="file"] {
+  display: block;
+  margin: 10px auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.actions button[type="button"] {
+  background: transparent;
+  color: #555;
+}
+
+.actions button[type="submit"] {
+  background: #065fd4;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.actions button[type="submit"]:hover {
+  background: #0b4cc9;
+}

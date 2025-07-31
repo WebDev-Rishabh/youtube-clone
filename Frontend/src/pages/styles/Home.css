@@ -1,0 +1,26 @@
+/* src/pages/styles/Home.css */
+
+.home-grid {
+    display: grid;
+    gap: 24px;
+    padding: 24px;
+    /* auto‐fit to allow responsive columns, each min 240px */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    background: #f9f9f9;
+  }
+  
+  /* You can also target your VideoCard root if it has a className */
+  /* For example, if your VideoCard renders <div className="video-card">… */
+  .video-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  

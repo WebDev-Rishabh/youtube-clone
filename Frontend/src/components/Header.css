@@ -1,0 +1,98 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 16px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .yt-logo{
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    background: #666;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .header__left,
+  .header__center,
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    height: 24px;
+    margin-left: 10px;
+  }
+  
+  .header__searchInput {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+  }
+  
+  .header__searchBtn {
+    padding: 8px 12px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  .header__mic {
+    margin-left: 12px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .header__loginBtn {
+    padding: 6px 12px;
+    background-color: transparent;
+    border: 1px solid #065fd4;
+    color: #065fd4;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .header__avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .header__avatarFallback {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #666;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  

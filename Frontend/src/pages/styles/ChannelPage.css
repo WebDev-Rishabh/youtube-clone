@@ -1,0 +1,140 @@
+.cp-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+}
+
+/* Banner */
+.cp-banner img,
+.cp-banner-fallback {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Header */
+.cp-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.cp-avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.cp-info {
+  flex-grow: 1;
+}
+
+.cp-title {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.cp-subs {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Actions */
+.cp-actions {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.cp-actions button,
+.cp-sub-btn {
+  background: #065fd4;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cp-actions button:hover,
+.cp-sub-btn:hover {
+  background: #054bb5;
+}
+
+.cp-sub-btn.subbed {
+  background: #ccc;
+  color: #333;
+}
+
+/* Videos */
+.cp-videos h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cp-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.cp-video-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fafafa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.cp-video-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.cp-video-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cp-video-meta {
+  padding: 10px;
+}
+
+.cp-video-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.cp-video-views {
+  font-size: 13px;
+  color: #777;
+}
+
+/* Center loading/error */
+.cp-center {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 18px;
+}
+
+.cp-center.error {
+  color: red;
+}
+.dlt-btn{
+  background: red !important;
+}

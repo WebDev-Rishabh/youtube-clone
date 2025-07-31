@@ -1,0 +1,25 @@
+/* src/components/styles/VideoCard.css */
+
+.video-thumb {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .video-info {
+    padding: 12px;
+  }
+  
+  .video-title {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .video-channel,
+  .video-views {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
